@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="wid_padding">5dp</dimen>
+    <dimen name="widget_corner_radius">20dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="heading_size">25sp</dimen>
+    <dimen name="image_height">200dp</dimen>
+    <dimen name="description_size">20sp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="des_con_text_sixe">18sp</dimen>
+    <dimen name="adds_margin">10dp</dimen>
+    <dimen name="news_each_row_height">70dp</dimen>
+    <dimen name="margin_card">10dp</dimen>
+    <dimen name="news_img_width">150dp</dimen>
+    <dimen name="news_img_height">150dp</dimen>
+    <dimen name="no_value">0dp</dimen>
+    <dimen name="news_text_view_padding">10dp</dimen>
+    <dimen name="flipper_height">250dp</dimen>
+    <dimen name="float_width">60dp</dimen>
+    <dimen name="floating_height">60dp</dimen>
+    <dimen name="b_elevation">6dp</dimen>
+    <dimen name="floating_margin">16dp</dimen>
+
+</resources>

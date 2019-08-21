@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".FinalActivity">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/margin_5">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/heading_size"
+                android:id="@+id/f_title"
+                android:textColor="@color/fa_heading_color"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image_height"
+                android:id="@+id/f_img"
+                android:contentDescription="@string/news_image"
+                android:scaleType="centerCrop"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/description"
+                android:textSize="@dimen/description_size"
+                android:textStyle="bold"
+                android:textColor="@color/pink" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_10"
+                android:textSize="@dimen/des_con_text_sixe"
+                android:id="@+id/f_description"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/pink"
+                android:text="@string/published_at"
+                android:textStyle="bold"
+                android:textSize="@dimen/description_size"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/f_publish"
+                />
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/adds_margin"
+                android:id="@+id/adds"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/add_id">
+            </com.google.android.gms.ads.AdView>
+            </LinearLayout>
+            </ScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="@dimen/float_width"
+        android:layout_height="@dimen/floating_height"
+        android:onClick="share"
+        android:elevation="@dimen/b_elevation"
+        android:layout_margin="@dimen/floating_margin"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_share_black_24dp"
+        tools:targetApi="lollipop" />
+
+</FrameLayout>

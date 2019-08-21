@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ab034f</color>
+    <color name="colorPrimaryDark">#790136</color>
+    <color name="colorAccent">#FF33B5E5</color>
+    <color name="white">#ffffff</color>
+    <color name="background">#fffee4</color>
+    <color name="widget_background">#6cff91</color>
+    <color name="wid_font_primary">#fff3cc</color>
+    <color name="fa_heading_color">#475103</color>
+    <color name="pink">#d40573</color>
+    <color name="gray">#849c84</color>
+    <color name="dark_green">#19330a</color>
+    <color name="card_background_color">#ffccbb</color>
+    <color name="light_gray">#b0afaf</color>
+
+    <item name="blue" type="color">#FF33B5E5</item>
+    <item name="purple" type="color">#FFAA66CC</item>
+    <item name="green" type="color">#FF99CC00</item>
+    <item name="orange" type="color">#FFFFBB33</item>
+    <item name="red" type="color">#FFFF4444</item>
+    <item name="darkblue" type="color">#FF0099CC</item>
+    <item name="darkpurple" type="color">#FF9933CC</item>
+    <item name="darkgreen" type="color">#FF669900</item>
+    <item name="darkorange" type="color">#FFFF8800</item>
+    <item name="darkred" type="color">#FFCC0000</item>
+
+    <integer-array name="namescolors">
+        <item>@color/blue</item>
+        <item>@color/purple</item>
+        <item>@color/green</item>
+        <item>@color/orange</item>
+        <item>@color/red</item>
+        <item>@color/darkblue</item>
+        <item>@color/darkpurple</item>
+        <item>@color/darkgreen</item>
+        <item>@color/gray</item>
+        <item>@color/pink</item>
+
+         </integer-array>
+
+</resources>

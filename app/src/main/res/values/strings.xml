@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">DailyNewsApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="base_url">https://newsapi.org/v2/everything?sources=</string>
+    <string name="my_api_key">apiKey=d5c4f8cf60b84d099fa7e72d96ab9edb</string>
+    <string name="nurl1">https://newsapi.org/v2/everything?sources=</string>
+    <string name="appwidget_text">No Articles Saved Recently</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="final_intent_key">result</string>
+    <string name="widget_key">news</string>
+    <string name="detail_intent">id</string>
+    <string name="alert_text_title">Oops.......!</string>
+    <string name="logut">Logout Successfully</string>
+    <string name="exit_title">Are you sure?</string>
+    <string name="signout">SignOut</string>
+    <string name="widget_heading">Recently Saved Article</string>
+    <string name="article">articles</string>
+    <string name="title">title</string>
+    <string name="image">urlToImage</string>
+    <string name="desc">description</string>
+    <string name="published">publishedAt</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="no_favorite">No article is saved to Show</string>
+    <string name="add_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="news_image">News Image</string>
+    <string name="saved_articles">Saved Articles</string>
+    <string name="save">Save</string>
+    <string name="description">Description</string>
+    <string name="published_at">Published At</string>
+    <string name="dat">text/plain</string>
+    <string name="share">Share</string>
+    <string name="sample_text">sample text</string>
+</resources>
